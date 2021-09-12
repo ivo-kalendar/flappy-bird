@@ -39,7 +39,7 @@ module.exports = {
         contentBase: path.resolve(__dirname, "build"),
         compress: true,
         host: "192.168.0.103",
-        port: 8080,
+        port: 3000,
     },
     plugins: [
         new webpack.DefinePlugin({
